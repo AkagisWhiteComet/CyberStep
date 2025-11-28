@@ -1,0 +1,11 @@
+:root {
+    --colour-dark-base: rgba(25, 20, 35, 1);
+    --colour-dark-darker: rgba(14, 10, 20, 1);
+    --colour-dark-lighter: rgba(34, 28, 53, 1);
+
+    --colour-accent: rgba(255, 89, 90, 1);
+
+    --colour-white: rgba(255, 255, 255, 1);
+    --colour-torquoise: rgba(0, 201, 219, 1);
+    --colour-purple: rgba(132, 108, 230, 1);
+}

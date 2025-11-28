@@ -1,0 +1,12 @@
+html {
+    background-color: var(--colour-dark-base);
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 101.25rem;
+}
