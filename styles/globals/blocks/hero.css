@@ -1,3 +1,22 @@
-.hero {
-    height: 2000px;
+.hero .container {
+    display: flex;
+    align-items: center;
+    gap: 11.9rem;
+}
+
+.text-block {
+    max-width: 35.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero-buttons {
+    margin-top: 1rem;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 120%;
 }

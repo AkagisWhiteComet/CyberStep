@@ -8,4 +8,7 @@
     --colour-white: rgba(255, 255, 255, 1);
     --colour-torquoise: rgba(0, 201, 219, 1);
     --colour-purple: rgba(132, 108, 230, 1);
+
+    --container-width: 81rem;
+    --container-padding-x: 0.8rem;
 }

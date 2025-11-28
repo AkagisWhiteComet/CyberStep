@@ -1,12 +1,57 @@
 html {
     background-color: var(--colour-dark-base);
     scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    line-height: 140%;
+    color: var(--colour-white);
 }
 
 a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
 .container {
-    max-width: 101.25rem;
+    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+    margin: 0 auto;
+    padding-inline: var(--container-padding-x);
+}
+
+.button {
+    padding: 1rem 3.625rem;
+    background: none;
+    border: none;
+
+    color: var(--colour-white);
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.075rem;
+    text-transform: uppercase;
+}
+
+.demo-button {
+    background-color: var(--colour-accent);
+}
+.demo-button:hover {
+    background: none;
+    outline: 0.125rem solid var(--colour-accent);
+    outline-offset: -0.125rem;
+    color: var(--colour-accent);
+}
+
+.start-button {
+    outline: 0.125rem solid var(--colour-white);
+    outline-offset: -0.125rem;
+    margin-left: 1.25rem;
+}
+
+.accent-text {
+    color: var(--colour-accent);
 }
