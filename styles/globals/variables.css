@@ -9,6 +9,9 @@
     --colour-torquoise: rgba(0, 201, 219, 1);
     --colour-purple: rgba(132, 108, 230, 1);
 
+    --font-family-base: 'Inter';
+    --font-family-accent: '';
+
     --container-width: 81rem;
     --container-padding-x: 0.8rem;
 }

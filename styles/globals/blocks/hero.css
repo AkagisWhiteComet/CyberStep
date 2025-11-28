@@ -1,3 +1,8 @@
+.top-gradient {
+    top: 0;
+    background: linear-gradient(180deg, rgba(255, 89, 90, 0.16) 0%, rgba(255, 89, 90, 0) 36.71%);
+}
+
 .hero .container {
     display: flex;
     align-items: center;
@@ -9,6 +14,12 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2;
 }
 
 .hero-buttons {

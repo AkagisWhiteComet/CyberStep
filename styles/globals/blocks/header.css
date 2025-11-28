@@ -8,8 +8,15 @@
     top: 0;
     position: sticky;
     z-index: 100;
-
-    background-color: rgba(25, 20, 35, 0.85);
+    animation-name: scrolling-header;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 5rem 30rem;
+}
+@keyframes scrolling-header {
+    to {
+        background-color: rgba(25, 20, 35, 0.85);
+    }
 }
 
 /* Навигационное меню */
@@ -23,7 +30,7 @@
     color: var(--colour-white);
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
-    line-height: 28%;
+    line-height: 0.3;
 }
 .nav-link:hover {
     color: var(--colour-accent);
@@ -40,5 +47,5 @@
     color: var(--colour-white);
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
-    line-height: 28%;
+    line-height: 0.3;
 }
