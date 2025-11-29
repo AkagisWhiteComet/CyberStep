@@ -1,7 +1,13 @@
+/* Глобальные стили */
 @import url('./globals.css');
 @import url('./variables.css');
 @import url('./normalize.css');
 @import url('./fonts.css');
 
+/* Стили отдельных блоков страницы */
 @import url('./blocks/header.css');
+
+/* Стили отдельных секций */
 @import url('./blocks/hero.css');
+@import url('./blocks/triangles.css');
+@import url('./blocks/sign-up.css');

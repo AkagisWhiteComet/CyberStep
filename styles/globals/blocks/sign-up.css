@@ -1,0 +1,32 @@
+.sign-up .container {
+    background-image: url('../../../images/sign-up/sign-up-bg.png');
+    height: 26.2rem;
+}
+
+.sign-up_content {
+    padding: 3.25rem 0 3.25rem 4rem;
+}
+
+.sign-up_subtitle {
+    font-size: 0.9rem;
+    line-height: auto;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+
+.sign-up_title {
+    max-width: 49.7rem;
+    margin-bottom: 2.4rem;
+}
+
+.sign-up_button {
+    background: var(--colour-white);
+    color: var(--colour-accent);
+}
+.sign-up_button:hover {
+    color: var(--colour-white);
+    background: none;
+    outline: 0.1rem solid var(--colour-white);
+    outline-offset: -0.1rem;
+}

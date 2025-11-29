@@ -17,12 +17,21 @@ h1 {
     font-size: 2.5rem;
     font-weight: 800;
     text-transform: uppercase;
-    line-height: 100%;
+    line-height: 1;
 }
 h3 {
     font-size: 2.5rem;
-    line-height: 1.2;
     font-weight: 800;
+    line-height: 1.2;
+}
+h6 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+section {
+    padding-block: 8rem;
 }
 
 .container {
@@ -32,7 +41,7 @@ h3 {
 }
 
 .button {
-    padding: 1rem 3.625rem;
+    padding: 1rem 2.9rem;
     background: none;
     border: none;
 
@@ -48,15 +57,15 @@ h3 {
 }
 .demo-button:hover {
     background: none;
-    outline: 0.125rem solid var(--colour-accent);
-    outline-offset: -0.125rem;
+    outline: 0.1rem solid var(--colour-accent);
+    outline-offset: -0.1rem;
     color: var(--colour-accent);
 }
 
 .start-button {
-    outline: 0.125rem solid var(--colour-white);
-    outline-offset: -0.125rem;
-    margin-left: 1.25rem;
+    outline: 0.1rem solid var(--colour-white);
+    outline-offset: -0.1rem;
+    margin-left: 1rem;
 }
 
 .accent-text {
