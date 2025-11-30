@@ -1,0 +1,19 @@
+.recomendations {
+    margin-top: 8rem;
+}
+
+.recomendations .container {
+    display: flex;
+    gap: 12.4rem;
+}
+
+.recomendations_subtitle {
+    color: var(--colour-torquoise);
+}
+
+.recomendations_info {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}

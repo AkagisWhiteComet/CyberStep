@@ -1,0 +1,19 @@
+.threat-check .container {
+    display: flex;
+    gap: 13.4rem;
+}
+
+.threat-check_subtitle {
+    color: var(--colour-purple);
+}
+
+.threat-check_info {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.threat-check .learn-more_button {
+    border-bottom: 0.05rem solid var(--colour-purple);
+}

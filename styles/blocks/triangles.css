@@ -1,6 +1,7 @@
 .triangles {
     background-image: url('../../../images/triangles/triangles-bg.png');;
     background-repeat: no-repeat;
+    padding-top: 8rem;
 }
 
 .triangles-title {
