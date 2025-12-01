@@ -1,0 +1,45 @@
+.reviews .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews_header {
+    max-width: 60rem;
+    margin-bottom: 2.4rem;
+}
+
+.reviews_subtitle, .reviews_title {
+    text-align: center;
+}
+
+.reviews_subtitle {
+    color: var(--colour-accent);
+    margin-bottom: 1.2rem;
+}
+
+.review {
+    background-image: url('../../images/reviews/review-bg.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review_subtitle {
+    margin-bottom: 2.4rem;
+}
+
+.review_text {
+    max-width: 57rem;
+    font-family: 'Inter Italic';
+    margin-bottom: 2.4rem;
+}
+
+.review_author {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.review_author-company {
+    font-size: 0.8rem;
+}

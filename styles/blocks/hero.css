@@ -13,7 +13,7 @@
     gap: 11.9rem;
 }
 
-.text-block {
+.hero_info {
     max-width: 35.4rem;
     display: flex;
     flex-direction: column;

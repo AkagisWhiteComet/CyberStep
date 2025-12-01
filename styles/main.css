@@ -6,6 +6,7 @@
 
 /* Стили отдельных блоков страницы */
 @import url('./blocks/header.css');
+@import url('./blocks/footer.css');
 
 /* Стили отдельных секций */
 @import url('./blocks/hero.css');
@@ -13,3 +14,6 @@
 @import url('./blocks/sign-up.css');
 @import url('./blocks/threat-check.css');
 @import url('./blocks/recomendations.css');
+@import url('./blocks/attack.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/get-started.css');

@@ -1,0 +1,24 @@
+.attack {
+    background-image: url(../../images/attack/attack-bg.png);
+    height: 37.3rem;
+}
+
+.attack .container {
+    display: flex;
+    align-items: center;
+    gap: 13.5rem;
+}
+
+.attack_info {
+    max-width: 29rem;
+    margin-top: 3.2rem;
+}
+
+.attack_subtitle {
+    margin-bottom: 1.2rem;
+}
+
+.attack .learn-more_button {
+    margin-top: 10rem;
+    border-bottom: 0.05rem solid var(--colour-white);
+}
