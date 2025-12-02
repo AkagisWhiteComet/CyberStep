@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.reviw p {
+    opacity: 1.0;
+}
+
 .reviews_header {
     max-width: 60rem;
     margin-bottom: 2.4rem;
@@ -42,4 +46,5 @@
 
 .review_author-company {
     font-size: 0.8rem;
+    opacity: 0.5;
 }

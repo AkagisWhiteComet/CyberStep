@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--colour-dark-darker);
+
+}
+
+.footer_header {
+    padding: 1.8rem 4rem;
+    display: flex;
+    gap: 69.7rem;
+
+    border-bottom: 0.05rem solid var(--colour-accent);
+}
+
+.socials {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.footer_extra {
+    padding: 1.8rem 0;
+    border-top: 0.05rem solid var(--colour-dark-lighter);
+}
+
+.footer_extra-paragraph {
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
