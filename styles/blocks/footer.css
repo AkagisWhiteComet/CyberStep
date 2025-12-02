@@ -16,6 +16,44 @@
     gap: 1.2rem;
 }
 
+.footer_menu {
+    margin-block: 2.4rem;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 7.25rem;
+}
+
+.footer-menu_item-head {
+    color: var(--colur-white);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.075rem;
+    margin-bottom: 1rem;
+    opacity: 1;
+}
+
+.footer-menu_link {
+    color: var(--colur-white);
+    font-size: 0.9rem;
+    opacity: 0.5;
+    margin-bottom: 0.6rem;
+}
+.footer-menu_link:hover {
+    color: var(--colour-accent);
+    opacity: 1;
+}
+
+.mrgn-bttm {
+    margin-bottom: 1rem;
+}
+
+.mrgn-tp {
+    margin-top: 1rem;
+}
+
 .footer_extra {
     padding: 1.8rem 0;
     border-top: 0.05rem solid var(--colour-dark-lighter);

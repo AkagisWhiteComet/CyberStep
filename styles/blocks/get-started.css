@@ -2,6 +2,7 @@
     height: 29.5rem;
     background-image: url('../../images/get-started/gs-bg.png');
     display: flex;
+    margin-bottom: 0;
 }
 
 .get-started .container {
