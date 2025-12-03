@@ -1,0 +1,55 @@
+.leader-hero {
+    margin-block: 2.5rem;
+}
+
+.leader-hero_title {
+    max-width: 60rem;
+}
+
+.founders {
+    background-image: url('../../images/founders/content-bg.png');
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+}
+
+.founders_title {
+    margin-bottom: 3.2rem;
+}
+
+.founders_content {
+    display: flex;
+    gap: 2.4rem;
+    margin-bottom: 4rem;
+}
+
+.founders_paragraph {
+    max-width: 39.3rem;
+}
+
+.founders_cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.founder-img {
+    margin-bottom: 1.2rem;
+}
+
+.card-text {
+    width: 25.65rem;
+    text-align: center;
+}
+
+.founder-name {
+    margin: 0 8.9rem 0.2rem 5.7rem;
+    text-align: center;
+}
+
+.founder-position {
+    margin: 0 8.9rem 1rem 5.7rem;
+    opacity: 0.5s;
+}
+
+.founder-social {
+    margin: 0 13.6rem 0 10.45rem;
+}
