@@ -82,6 +82,7 @@ section {
     line-height: auto;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
+    opacity: 1;
 }
 
 .learn-more_button {
