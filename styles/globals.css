@@ -10,11 +10,6 @@ html {
     color: var(--colour-white);
 }
 
-.top-gradient {
-    top: 0;
-    background: linear-gradient(180deg, rgba(255, 89, 90, 0.16) 0%, rgba(255, 89, 90, 0) 36.71%);
-}
-
 a {
     text-decoration: none;
 }

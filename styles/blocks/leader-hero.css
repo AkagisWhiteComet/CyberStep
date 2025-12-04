@@ -1,0 +1,8 @@
+.leader-hero {
+    padding-block: 5rem;
+    background-image: url('../../images/leader-hero/leader-hero_bg.png');
+}
+
+.leader-hero_title {
+    max-width: 60rem;
+}

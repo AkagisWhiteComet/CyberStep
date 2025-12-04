@@ -23,10 +23,33 @@
 }
 
 .review {
+    height: 26.9rem;
+    width: 81rem;
     background-image: url('../../images/reviews/review-bg.png');
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
     align-items: center;
+}
+
+.slide-btn {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.prev {
+    top: 0;
+    left: 0;
+}
+
+.next {
+    bottom: 0;
+    right: 0;
+}
+
+.review-text_container {
+    height: 100%;
 }
 
 .review_subtitle {
@@ -37,6 +60,7 @@
     max-width: 57rem;
     font-family: 'Inter Italic';
     margin-bottom: 2.4rem;
+    text-align: center;
 }
 
 .review_author {

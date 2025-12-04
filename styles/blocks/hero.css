@@ -1,5 +1,9 @@
-.hero {
+.main-hero {
     padding-top: 3rem;
+}
+
+.hero {
+    background-image: url('../../images/main-bg.png');
 }
 
 .hero .container {
