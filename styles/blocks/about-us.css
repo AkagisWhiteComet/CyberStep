@@ -1,0 +1,23 @@
+.about-us {
+    background-color: var(--colour-dark-darker);
+    padding-top: 2.5rem;
+}
+
+.about-us .container {
+    display: flex;
+    gap: 17rem;
+}
+
+.about-us_subtitle {
+    color: var(--colour-purple);
+}
+
+.history {
+    background: linear-gradient(180deg, var(--colour-dark-darker) 0%, var(--colour-dark-base) 100%);
+}
+
+.history .container {
+    display: flex;
+    gap: 5.75rem;
+    align-items: center;
+}

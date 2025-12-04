@@ -6,8 +6,21 @@
 }
 
 .triangles-title {
+    opacity: 0;
+    transform: translateY(-50px);
     text-align: center;
     margin-bottom: 5rem;
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 20rem 50rem;
+}
+
+@keyframes scrolling-appear {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .triangles-cards {
@@ -16,6 +29,12 @@
     gap: 5.85rem;
     background-image: url('../../../images/triangles/triangles2.png');
     background-repeat: no-repeat;
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 45rem 60rem;
+    opacity: 0;
+    transform: translateX(-100px);
 }
 
 .triangles-card {

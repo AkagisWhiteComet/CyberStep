@@ -3,15 +3,26 @@
     gap: 13.4rem;
 }
 
+.threat-check_info {
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 115rem 130rem;
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
 .threat-check_subtitle {
     color: var(--colour-purple);
 }
 
-.threat-check_info {
-    max-width: 35rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
+.threat-check_image {
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 115rem 130rem;
+    opacity: 0;
+    transform: translateX(100px);
 }
 
 .threat-check .learn-more_button {

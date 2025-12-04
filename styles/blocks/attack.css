@@ -12,6 +12,21 @@
 .attack_info {
     max-width: 29rem;
     margin-top: 3.2rem;
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 185rem 200rem;
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+.attack_img {
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 185rem 195rem;
+    opacity: 0;
+    transform: translateY(-100px);
 }
 
 .attack_subtitle {

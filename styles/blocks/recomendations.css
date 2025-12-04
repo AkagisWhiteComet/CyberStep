@@ -2,18 +2,29 @@
     margin-top: 8rem;
 }
 
-.recomendations .container {
+.recomendation .container {
     display: flex;
     gap: 12.4rem;
 }
 
-.recomendations_subtitle {
-    color: var(--colour-torquoise);
+.recomendations_image {
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 155rem 170rem;
+    opacity: 0;
+    transform: translateX(-100px);
 }
 
 .recomendations_info {
-    max-width: 35rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 155rem 170rem;
+    opacity: 0;
+    transform: translateX(100px);
+}
+
+.recomendations_subtitle {
+    color: var(--colour-torquoise);
 }
