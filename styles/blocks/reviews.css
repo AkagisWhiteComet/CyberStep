@@ -6,6 +6,7 @@
 
 .reviw p {
     opacity: 1.0;
+    text-align: center;
 }
 
 .reviews_header {
@@ -23,12 +24,14 @@
 }
 
 .review {
+    position: relative;
     height: 26.9rem;
     width: 81rem;
     background-image: url('../../images/reviews/review-bg.png');
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .slide-btn {
@@ -39,21 +42,24 @@
 }
 
 .prev {
-    top: 0;
-    left: 0;
+    margin-bottom: 10rem;
 }
 
 .next {
-    bottom: 0;
-    right: 0;
+    margin-top: 10rem;
 }
 
 .review-text_container {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .review_subtitle {
     margin-bottom: 2.4rem;
+    opacity: 1;
 }
 
 .review_text {
@@ -66,6 +72,7 @@
 .review_author {
     font-weight: 600;
     margin-bottom: 0.3rem;
+    opacity: 1;
 }
 
 .review_author-company {
