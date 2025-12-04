@@ -2,6 +2,12 @@
     background-image: url('../../../images/sign-up/sign-up-bg.png');
     background-repeat: no-repeat;
     height: 26.2rem;
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 80rem 95rem;
+    opacity: 0;
+    transform: translateX(-100px);
 }
 
 .sign-up_content {

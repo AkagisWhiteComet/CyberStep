@@ -33,9 +33,7 @@
     font-size: 0.9rem;
     line-height: 0.3;
 }
-.nav-link:hover {
-    color: var(--colour-accent);
-}
+
 
 /* Меню выбора языка страницы */
 .language-select-list {
@@ -50,4 +48,49 @@
     font-size: 0.9rem;
     line-height: 0.3;
     opacity: 1;
+}
+
+.nav-item {
+   position: relative;
+   transition: background-color 0.5s, color 0.5s;
+}  
+
+.nav-item:hover {
+    background-color: var(--colour-accent);
+}
+
+.nav-item:hover .nav-link {
+    color: var(--colour-dark-base);
+}
+
+.nav-item:hover::before  {
+    opacity: 1;
+    left: -15%;
+}
+
+.nav-item:hover::after {
+    opacity: 1;
+    right: -15%;
+}
+
+.nav-item::before, .nav-item::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 30px;
+  background-color: var(--colour-accent);
+  clip-path: polygon(40% 15%,30% 0%,100% 0%,100% 100%,90% 90%,90% 15%);
+  transition: opacity 0.5s, left 0.5s, right 0.5s;
+  opacity: 0; 
+}
+
+.nav-item::before {
+  left: -30%;
+  bottom: -25%;
+  transform: rotate(180deg);
+}
+
+.nav-item::after {
+  right: -30%;
+  top: -20%;
 }

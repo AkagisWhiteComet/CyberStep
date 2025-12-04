@@ -12,6 +12,21 @@
     display: flex;
     flex-direction: column;
     gap: 1.4rem;
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 115rem 130rem;
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+.threat-check_image {
+animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 115rem 130rem;
+    opacity: 0;
+    transform: translateX(100px);
 }
 
 .threat-check .learn-more_button {

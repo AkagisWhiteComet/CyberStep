@@ -16,4 +16,19 @@
     display: flex;
     flex-direction: column;
     gap: 1.4rem;
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 155rem 170rem;
+    opacity: 0;
+    transform: translateX(100px);
+}
+
+.recomendations_image {
+    animation-name: scrolling-appear;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+    animation-range: 155rem 170rem;
+    opacity: 0;
+    transform: translateX(-100px);
 }
