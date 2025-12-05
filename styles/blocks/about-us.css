@@ -1,23 +1,38 @@
 .about-us {
-    background-color: var(--colour-dark-darker);
     padding-top: 2.5rem;
+    background-color: var(--colour-dark-darker);
+    margin-bottom: 0;
 }
 
 .about-us .container {
     display: flex;
-    gap: 17rem;
+    align-items: center;
+    gap: 16rem;
+    padding-bottom: 5rem;
 }
 
-.about-us_subtitle {
-    color: var(--colour-purple);
+.about-us .split-line {
+    margin-block: 5rem;
 }
 
 .history {
-    background: linear-gradient(180deg, var(--colour-dark-darker) 0%, var(--colour-dark-base) 100%);
+    background: linear-gradient(180deg, var(--colour-dark-darker) 0%, var(--colour-dark-base) 100%);;
 }
 
 .history .container {
     display: flex;
-    gap: 5.75rem;
     align-items: center;
+    gap: 6rem;
+}
+
+.about-us_info, .history_info {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+
+.about-us_subtitle {
+    color: var(--colour-purple);
 }

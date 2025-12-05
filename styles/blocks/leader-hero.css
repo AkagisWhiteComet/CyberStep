@@ -1,6 +1,10 @@
-.leader-hero {
+.leader-hero, .hero-alt {
     padding-block: 5rem;
     background-image: url('../../images/leader-hero/leader-hero_bg.png');
+}
+
+.hero-alt {
+    margin-bottom: 0;
 }
 
 .leader-hero_title {
