@@ -18,9 +18,9 @@
     flex-direction: column;
     gap: 2rem;
      animation-name: appear-left;
-animation-duration: 1s;
-animation-fill-mode: both;
-animation-timing-function: cubic-bezier(0, 0, 0.03, 1);
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0, 0, 0.03, 1);
 }
 
 .hero-title {

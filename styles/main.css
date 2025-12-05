@@ -23,5 +23,11 @@
 
 @import url('./blocks/about-us.css');
 
+@import url('./blocks/ai-analyst.css');
+@import url('./blocks/identify.css');
+@import url('./blocks/reports.css');
+@import url('./blocks/cases.css');
+@import url('./blocks/partners.css');
+
 @import url('./blocks/leader-hero.css');
 @import url('./blocks/founders.css');

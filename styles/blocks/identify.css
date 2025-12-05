@@ -1,0 +1,19 @@
+.identify {
+    margin-top: 8rem;
+}
+
+.identify .container {
+    display: flex;
+    gap: 12.4rem;
+}
+
+.identify_subtitle {
+    color: var(--colour-torquoise);
+}
+
+.identify_info {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}

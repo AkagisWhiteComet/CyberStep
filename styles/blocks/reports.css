@@ -1,0 +1,15 @@
+.reports .container {
+    display: flex;
+    gap: 13.4rem;
+}
+
+.reports_subtitle {
+    color: var(--colour-purple);
+}
+
+.reports_info {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}

@@ -1,0 +1,45 @@
+.partners {
+    padding-top: 8rem;
+    align-items: center;
+}
+
+.partners-title {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.partners-subtitle {
+    color: var(--colour-torquoise);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.partners_cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.partners_card {
+    width: 25.7rem;
+    height: 32.3rem;
+    background-color: #221c3580;
+    padding: 45px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product_images {
+    margin-bottom: 1.8rem;
+}
+
+.partners-card_title {
+    margin-bottom: 1rem;
+}
+
+.partners-card_description {
+    opacity: 0.6;
+}

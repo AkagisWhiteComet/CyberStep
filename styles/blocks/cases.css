@@ -1,0 +1,24 @@
+.cases {
+    margin-top: 8rem;
+}
+
+.cases .container {
+    display: flex;
+    gap: 12.4rem;
+}
+
+.cases_subtitle {
+    color: var(--colour-torquoise);
+}
+
+.cases_info {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.cases .accent-text {
+    color: var(--colour-accent);
+    margin-bottom: 1.2rem;
+}

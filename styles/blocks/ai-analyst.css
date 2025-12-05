@@ -1,0 +1,43 @@
+.ai-analyst {
+    padding-top: 3rem;
+}
+
+.ai-analyst .container {
+    display: flex;
+    align-items: center;
+    gap: 11.9rem;
+}
+
+.ai-analyst_info {
+    max-width: 35.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.ai-analyst_subtitle {
+    color: var(--colour-accent);
+    gap: -1rem;
+}
+
+.ai-analyst-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.ai-analyst .accent-text {
+    color: var(--colour-accent);
+    margin-bottom: 1.2rem;
+}
+
+.ai-analyst-buttons {
+    margin-top: 1rem;
+}
+
+.ai-analyst-description {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 120%;
+    opacity: 0.7;
+}
