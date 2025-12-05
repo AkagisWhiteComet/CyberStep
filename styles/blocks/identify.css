@@ -1,5 +1,9 @@
 .identify {
-    margin-top: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 0;
+    background-image: url('../../images/product/identify-bg.png');
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 .identify .container {

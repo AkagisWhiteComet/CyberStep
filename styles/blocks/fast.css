@@ -1,0 +1,40 @@
+.fast .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fast-title {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.fast-subtitle {
+    color: var(--colour-purple);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.fast .cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16rem;
+    text-align: center;
+}
+.fast .card_title {
+    margin-bottom: -1rem;
+}
+.fast_description {
+    max-width: 12.5rem;
+    text-align: center;
+    opacity: 0.6;
+}
+.fast img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.purpled {
+    color: var(--colour-purple);
+}
