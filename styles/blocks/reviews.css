@@ -29,9 +29,12 @@
     width: 81rem;
     background-image: url('../../images/reviews/review-bg.png');
     background-repeat: no-repeat;
-    display: flex;
+    display: none;
     justify-content: center;
     gap: 2rem;
+}
+.review-active {
+    display: flex;
 }
 
 .slide-btn {
