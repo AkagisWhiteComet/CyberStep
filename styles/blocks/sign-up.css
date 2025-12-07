@@ -1,5 +1,5 @@
 .sign-up .container {
-    background-image: url('../../../images/sign-up/sign-up-bg.png');
+    background-image: url('../../images/sign-up/sign-up-bg.png');
     background-repeat: no-repeat;
     height: 26.2rem;
     animation-name: scrolling-appear;
