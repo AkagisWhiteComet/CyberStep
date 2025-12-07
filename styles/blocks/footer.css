@@ -35,6 +35,11 @@
     opacity: 1;
 }
 
+.not-link {
+    opacity: 0.5;
+    margin-bottom: 0.4rem;
+}
+
 .footer-menu_link {
     color: var(--colur-white);
     font-size: 0.9rem;
