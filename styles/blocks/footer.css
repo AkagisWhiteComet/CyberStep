@@ -50,6 +50,12 @@
     color: var(--colour-accent);
     opacity: 1;
 }
+.footer-menu_notlink {
+    color: var(--colur-white);
+    font-size: 0.9rem;
+    opacity: 0.5;
+    margin-bottom: 0.6rem;
+}
 
 .mrgn-bttm {
     margin-bottom: 1rem;
