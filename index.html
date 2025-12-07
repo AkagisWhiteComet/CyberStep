@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="/" class="main-link">
+        <a href="./index.html" class="main-link">
             <img
                 class="logo" 
                 src="./images/header/logo.svg" 
@@ -21,6 +21,9 @@
         <nav class="nav-menu">
             <ul class="nav-list">
                 <li class="nav-item">
+                    <a href="/" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
                     <a href="./about.html" class="nav-link">О нас</a>
                 </li>
                 <li class="nav-item">
@@ -29,26 +32,9 @@
                 <li class="nav-item">
                     <a href="./leadership.html" class="nav-link">Команда</a>
                 </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Контакты</a>
-                </li>
             </ul>
         </nav>
-        <div class="language-select-list">
-            <img
-                class="language-icon" 
-                src="./images/header/language-icon.svg" 
-                alt="Глобус"
-                width="24" height="24"
-            />
-            <p class="language-text">Русский</p>
-            <img
-                class="drop-down-icon" 
-                src="./images/header/drop-down_arrow.svg" 
-                alt=""
-                width="12" height="6"
-            />
-        </div>
+        <a class="to-footer_link" href="#footer">Подробнее</a>
     </header>
 
     <main class="main">
@@ -57,16 +43,15 @@
                 <div class="hero_info">
                     <h1 class="hero-title">Та EDR, которая <span class="accent-text">действительно</span> умеет реагировать</h1>
                     <svg width="708" height="2" viewBox="0 0 708 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="1" y1="1" x2="707" y2="1" stroke="url(#paint0_linear_1_8587)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
-<defs>
-<linearGradient id="paint0_linear_1_8587" x1="9.89065e-07" y1="2.5" x2="708" y2="2.50066" gradientUnits="userSpaceOnUse">
-<stop offset="0" stop-color="#FF595A" stop-opacity="0.1"/>
-<stop class="" offset="0.484182" stop-color="#FF595A" stop-opacity="0.8"/>
-<stop offset="1" stop-color="#FF595A" stop-opacity="0.1"/>
-</linearGradient>
-</defs>
-</svg>
-
+                        <line x1="1" y1="1" x2="707" y2="1" stroke="url(#paint0_linear_1_8587)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_1_8587" x1="9.89065e-07" y1="2.5" x2="708" y2="2.50066" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FF595A" stop-opacity="0.1"/>
+                        <stop class="" offset="0.484182" stop-color="#FF595A" stop-opacity="0.8"/>
+                        <stop offset="1" stop-color="#FF595A" stop-opacity="0.1"/>
+                        </linearGradient>
+                        </defs>
+                    </svg>
                     <p class="hero-description">
                         Получите точное представление о кибератаках (не полагаясь на экспертов-аналитиков), чтобы вы могли реагировать в 10 раз быстрее и точнее.
                     </p>
@@ -307,7 +292,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer_header">
             <a href="/" class="main-link">
                 <img
@@ -331,13 +316,13 @@
                         <p href="/" class="footer-menu_item-head">О нас</p>
                         <ul class="footer-menu_list">
                             <li class="footer-menu_item">
-                                <a href="/" class="footer-menu_link">Лидерство</a>
+                                <a href="./about.html#whoweare" class="footer-menu_link">Кто мы</a>
                             </li>
                             <li class="footer-menu_item">
-                                <a href="/" class="footer-menu_link">Пресса</a>
+                                <a href="./about.html#values" class="footer-menu_link">Ценности</a>
                             </li>
                             <li class="footer-menu_item">
-                                <a href="/" class="footer-menu_link">Инвесторы</a>
+                                <a href="./about.html#investors" class="footer-menu_link">Инвесторы</a>
                             </li>
                         </ul>
                     </div>
@@ -405,7 +390,6 @@
                         </ul>
                     </div>
                     <div class="footer-menu_column">
-                        <p href="/" class="footer-menu_item-head mrgn-bttm">Партнёры</p>
                         <p href="/" class="footer-menu_item-head">Источники</p>
                         <ul class="footer-menu_list">
                             <li class="footer-menu_item">

@@ -34,20 +34,18 @@
     line-height: 0.3;
 }
 
-
-/* Меню выбора языка страницы */
-.language-select-list {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-}
-
-.language-text {
-    color: var(--colour-white);
+.to-footer_link {
+    color: var(--colour-accent);
     font-family: 'Inter', sans-serif;
+    padding: 0.5rem 1rem;
+    outline: 0.05rem solid var(--colour-accent);
+    outline-offset: -0.05rem;
     font-size: 0.9rem;
-    line-height: 0.3;
     opacity: 1;
+}
+.to-footer_link:hover {
+    background-color: var(--colour-accent);
+    color: var(--colour-dark-base);
 }
 
 .nav-item {

@@ -1,16 +1,19 @@
 .get-started {
     height: 29.5rem;
-    background-image: url('../../images/get-started/gs-bg.png');
+    /* background-image: url('../../images/get-started/gs-bg.png'); */
     display: flex;
     margin-bottom: 0;
 }
 
 .get-started .container {
+    background-image: url('../../images/get-started/gs-bg2.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.2rem;
+    width: 100%;
+    max-width: 1800px;
 }
 
 .get-started_subtitle {

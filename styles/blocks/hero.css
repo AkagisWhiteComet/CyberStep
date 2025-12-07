@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-     animation-name: appear-left;
+    animation-name: appear-left;
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(0, 0, 0.03, 1);
@@ -42,32 +42,30 @@
 
 .hero-image {
     animation-name: appear-right;
-animation-duration: 1s;
-animation-delay: 0.5s;
-animation-fill-mode: both;
-animation-timing-function: cubic-bezier(0, 0, 0.03, 1);
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0, 0, 0.03, 1);
 }
 
 @keyframes appear-right {
-   from {
-transform: translateX(100px);
-opacity: 0;
-   } 
-   
-   to {
-opacity: 1;
-transform: translateX(0px);
-   }
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 @keyframes appear-left {
-   from {
-transform: translateX(-100px);
-opacity: 0;
-   } 
-   
-   to {
-opacity: 1;
-transform: translateX(0px);
-   }
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }

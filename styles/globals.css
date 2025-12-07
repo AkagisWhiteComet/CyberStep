@@ -160,5 +160,37 @@ section {
 }
 
 .split-line {
-    margin: -3rem 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@keyframes appear-right {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes appear-left {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes scrolling-appear {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+        transform: translateY(50px);
+    }
 }

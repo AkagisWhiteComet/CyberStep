@@ -1,12 +1,17 @@
-.attack {
+/* .attack {
     background-image: url(../../images/attack/attack-bg.png);
     height: 37.3rem;
-}
+    background-repeat: no-repeat;
+} */
 
 .attack .container {
+    background-image: url(../../images/attack/attack-bg.png);
+    height: 37.3rem;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     gap: 13.5rem;
+    padding-left: 70px;
 }
 
 .attack_info {

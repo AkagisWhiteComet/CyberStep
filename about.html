@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="/" class="main-link">
+        <a href="./index.html" class="main-link">
             <img
                 class="logo" 
                 src="./images/header/logo.svg" 
@@ -20,6 +20,9 @@
         <nav class="nav-menu">
             <ul class="nav-list">
                 <li class="nav-item">
+                    <a href="./index.html" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
                     <a href="/" class="nav-link">О нас</a>
                 </li>
                 <li class="nav-item">
@@ -28,26 +31,9 @@
                 <li class="nav-item">
                     <a href="./leadership.html" class="nav-link">Команда</a>
                 </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Контакты</a>
-                </li>
             </ul>
         </nav>
-        <div class="language-select-list">
-            <img
-                class="language-icon" 
-                src="./images/header/language-icon.svg" 
-                alt="Глобус"
-                width="24" height="24"
-            />
-            <p class="language-text">Русский</p>
-            <img
-                class="drop-down-icon" 
-                src="./images/header/drop-down_arrow.svg" 
-                alt=""
-                width="12" height="6"
-            />
-        </div>
+        <a class="to-footer_link" href="#footer">Подробнее</a>
     </header>
 
     <main class="main">
@@ -57,7 +43,7 @@
             </div>
         </section>
 
-        <section class="about-us">
+        <section class="about-us" id="whoweare">
             <div class="container">
                 <div class="about-us_image">
                     <img src="./images/about-us/about-us.png" alt="" class="about-us_image" width="586" height="418">
@@ -92,7 +78,7 @@
             </div>
         </section>
 
-        <section class="values">
+        <section class="values" id="values">
             <div class="container">
                 <div class="values_header">
                     <h3 class="values_title">Ценности</h3>
@@ -164,13 +150,12 @@
             </div>
         </section>
 
-        <section class="investors">
+        <section class="investors" id="investors">
             <div class="container">
                 <div class="investors_text">
                     <h3 class="investors_title">Наши консультанты и инвесторы</h3>
                     <p class="investors_description">
-                        Наш консультативный совет также впечатляет: в него входят такие светила кибербезопасности, как (имя), пионер в (область), и (имя другого консультанта), известный (их вклад или экспертные знания). Их мудрость и знания бесценны, когда мы справляемся со сложными задачами в сфере кибербезопасности.
-                        Наше партнерство с такими уважаемыми спонсорами — это не просто вотум доверия нашему видению; это свидетельство нашей траектории роста, стремящейся к единорогу. Оно позволяет нам инвестировать в передовые технологии, привлекать высококвалифицированных специалистов и, что самое главное, предоставлять нашим клиентам беспрецедентную ценность. Благодаря финансовой мощи и стратегическим знаниям наших консультантов и инвесторов, мы не просто стремимся изменить ситуацию в сфере кибербезопасности — мы уверенно движемся к ее определению.
+                        Наше партнерство со спонсорами — это не просто вотум доверия нашему видению; это свидетельство нашей траектории роста, стремящейся к единорогу. Оно позволяет нам инвестировать в передовые технологии, привлекать высококвалифицированных специалистов и, что самое главное, предоставлять нашим клиентам беспрецедентную ценность. Благодаря финансовой мощи и стратегическим знаниям наших консультантов и инвесторов, мы не просто стремимся изменить ситуацию в сфере кибербезопасности — мы уверенно движемся к ее определению.
                     </p>
                 </div>
                 <div class="investors_img">
@@ -265,7 +250,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer_header">
             <a href="/" class="main-link">
                 <img

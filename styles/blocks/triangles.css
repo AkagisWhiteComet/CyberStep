@@ -16,13 +16,6 @@
     animation-range: 20rem 50rem;
 }
 
-@keyframes scrolling-appear {
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
 .triangles-cards {
     height: 58rem;
     display: flex;
