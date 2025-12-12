@@ -3,7 +3,7 @@
 }
 
 .hero {
-    background-image: url('../../images/main-bg.png');
+    background-image: url('../../../images/main-bg.png');
 }
 
 .hero .container {

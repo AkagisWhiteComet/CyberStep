@@ -27,7 +27,7 @@
     position: relative;
     height: 26.9rem;
     width: 81rem;
-    background-image: url('../../images/reviews/review-bg.png');
+    background-image: url('../../../images/main/reviews/review-bg.png');
     background-repeat: no-repeat;
     display: none;
     justify-content: center;

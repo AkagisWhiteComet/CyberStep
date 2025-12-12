@@ -7,30 +7,27 @@
 /* Стили отдельных блоков страницы */
 @import url('./blocks/header.css');
 @import url('./blocks/footer.css');
-
-/* Стили отдельных секций */
-@import url('./blocks/hero.css');
-@import url('./blocks/triangles.css');
-@import url('./blocks/sign-up.css');
-@import url('./blocks/threat-check.css');
-@import url('./blocks/recomendations.css');
-@import url('./blocks/attack.css');
-@import url('./blocks/reviews.css');
 @import url('./blocks/get-started.css');
 
-@import url('./blocks/section-type1.css');
-@import url('./blocks/section-type2.css');
+/* Стили отдельных секций */
+@import url('./blocks/main/hero.css');
+@import url('./blocks/main/triangles.css');
+@import url('./blocks/main/sign-up.css');
+@import url('./blocks/main/threat-check.css');
+@import url('./blocks/main/recomendations.css');
+@import url('./blocks/main/attack.css');
+@import url('./blocks/main/reviews.css');
 
-@import url('./blocks/about-us.css');
-@import url('./blocks/values.css');
-@import url('./blocks/organizations.css');
+@import url('./blocks/about/about-us.css');
+@import url('./blocks/about/values.css');
+@import url('./blocks/about/organizations.css');
 
-@import url('./blocks/ai-analyst.css');
-@import url('./blocks/identify.css');
-@import url('./blocks/reports.css');
-@import url('./blocks/cases.css');
-@import url('./blocks/partners.css');
-@import url('./blocks/fast.css');
+@import url('./blocks/product/ai-analyst.css');
+@import url('./blocks/product/identify.css');
+@import url('./blocks/product/reports.css');
+@import url('./blocks/product/cases.css');
+@import url('./blocks/product/partners.css');
+@import url('./blocks/product/fast.css');
 
-@import url('./blocks/leader-hero.css');
-@import url('./blocks/founders.css');
+@import url('./blocks/leaders/leader-hero.css');
+@import url('./blocks/leaders/founders.css');

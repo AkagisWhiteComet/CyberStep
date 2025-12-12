@@ -1,6 +1,6 @@
 .triangles {
     height: 47rem;
-    background-image: url('../../images/triangles/triangles-bg.png');;
+    background-image: url('../../../images/main/triangles/triangles-bg.png');;
     background-repeat: no-repeat;
     padding-top: 8rem;
 }
@@ -20,7 +20,7 @@
     height: 58rem;
     display: flex;
     gap: 5.85rem;
-    background-image: url('../../images/triangles/triangles2.png');
+    background-image: url('../../../images/main/triangles/triangles2.png');
     background-repeat: no-repeat;
     animation-name: scrolling-appear;
     animation-fill-mode: both;

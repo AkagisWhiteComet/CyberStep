@@ -4,6 +4,11 @@
 }
 
 .threat-check_info {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+
     animation-name: scrolling-appear;
     animation-fill-mode: both;
     animation-timeline: scroll();

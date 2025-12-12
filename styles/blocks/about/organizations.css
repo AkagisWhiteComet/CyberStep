@@ -24,6 +24,10 @@
     gap: 1rem;
 }
 
+.org-title {
+    text-align: center;
+}
+
 .org-metrics_list {
     display: flex;
     flex-direction: column;

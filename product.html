@@ -8,6 +8,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./images/icons/apple-touch-icon-180x180.png">
     <link rel="manifest" href="./manifest.webmanifest">
     <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/top-button.js" defer></script>
     <title>CyberStep | Продукт</title>
 </head>
 <body>
@@ -63,7 +64,7 @@
         <section class="identify" id="identify">
             <div class="container">
                 <div class="identify_image">
-                    <img src="./images/product/identify.png" alt="" width="672" height="586">
+                    <img src="./images/product/identify/identify.png" alt="" width="672" height="586">
                 </div>
                 <div class="identify_info">
                     <p class="identify_subtitle subtitle">ОТСЛЕЖИВАНИЕ УГРОЗ</p>
@@ -87,7 +88,7 @@
                     <p class="reports_description">Ваш второй пилот с искусственным интеллектом представляет всю историю атаки (метод, происхождение, причину и последствия) в виде простого для понимания отчета, который помогает вашим аналитикам лучше понимать инциденты и управлять ими без необходимости читать и интерпретировать несколько отчетов.</p>
                 </div>
                 <div class="reports_image">
-                    <img src="./images/product/reports.png" alt="" class="reports_img" width="586" height="450">
+                    <img src="./images/product/reports/reports.png" alt="" class="reports_img" width="586" height="450">
                 </div>
             </div>
         </section>
@@ -97,7 +98,7 @@
         <section class="cases" id="cases">
             <div class="container">
                 <div class="cases_image">
-                    <img src="./images/product/cases.png" alt="" width="672" height="586">
+                    <img src="./images/product/cases/cases.png" alt="" width="672" height="586">
                 </div>
                 <div class="cases_info">
                     <p class="accent-text">ВЕДЕНИЕ КЕЙСОВ</p>
@@ -118,21 +119,21 @@
                 <div class="partners_cards">
                     <div class="partners_card">
                         <div class="product_images">
-                            <img src="./images/product/partners_div1.png" alt="" width="368" height="250">
+                            <img src="./images/product/partners/partners_div1.png" alt="" width="368" height="250">
                         </div>
                         <h6 class="partners-card_title">Визуализированная панель мониторинга кибербезопасности</h6>
                         <p class="partners-card_description">Просматривайте общую оценку безопасности и изменения тенденций, чтобы иметь полное представление о состоянии безопасности вашего предприятия.</p>
                     </div>
                     <div class="partners_card">
                         <div class="product_images">
-                            <img src="./images/product/partners_div2.png" alt="" width="368" height="250">
+                            <img src="./images/product/partners/partners_div2.png" alt="" width="368" height="250">
                         </div>
                         <h6 class="partners-card_title">Показатели эффективности работы команды</h6>
                         <p class="partners-card_description">Отслеживайте наиболее важные показатели вашей команды (MTTI, MTTD, MTTA и MTTR), чтобы вы могли оценить их улучшение.</p>
                     </div>
                     <div class="partners_card">
                         <div class="product_images">
-                            <img src="./images/product/partners_div3.png" alt="" width="368" height="250">
+                            <img src="./images/product/partners/partners_div3.png" alt="" width="368" height="250">
                         </div>
                         <h6 class="partners-card_title">Интеграции</h6>
                         <p class="partners-card_description">Используйте многоуровневый мониторинг угроз, который интегрируется с системами обнаружения угроз в конечных точках (EDR) и управления безопасностью Active Directory (ITDR), чтобы обеспечить максимально полный мониторинг.</p>
@@ -147,17 +148,17 @@
                 <h3 class="fast-title"><span class="purpled">Самое быстрое</span> реагирование</h3>
                 <div class="cards">
                     <div class="card">
-                        <img src="./images/product/fast_svg1.svg" alt="" width="60">
+                        <img src="./images/product/fast/fast_svg1.svg" alt="" width="60">
                         <h4>1 секунда</h4>
                         <p class="fast_description">Мониторинг угроз атаки (EDR + AD)</p>
                     </div>
                     <div class="card">
-                        <img src="./images/product/fast_svg2.svg" alt="" width="60">
+                        <img src="./images/product/fast/fast_svg2.svg" alt="" width="60">
                         <h4>~3 минуты</h4>
                         <p class="fast_description">Среднее время обнаружения угрозы</p>
                     </div>
                     <div class="card">
-                        <img src="./images/product/fast_svg3.svg" alt="" width="60">
+                        <img src="./images/product/fast/fast_svg3.svg" alt="" width="60">
                         <h4>~15 минут</h4>
                         <p class="fast_description">Среднее время исследования</p>
                     </div>
@@ -174,6 +175,10 @@
                 <a class="demo-button button" href="https://forms.yandex.ru/u/6935a4da84227c59be3b4a5c">Запросить демо</a>
             </div>
         </section>
+
+        <button class="top-button" onclick="topFunction()" id="top-button">
+            <img src="./images/top.svg" alt="Наверх" width="50" height="50">
+        </button>
     </main>
 
     <footer class="footer" id="footer">

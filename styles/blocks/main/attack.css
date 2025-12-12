@@ -1,9 +1,8 @@
 .attack .container {
-    background-image: url(../../images/attack/attack-bg.png);
+    background-image: url(../../../images/main/attack/attack-bg.png);
     height: 37.3rem;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
     gap: 13.5rem;
     padding-left: 70px;
 }
@@ -33,6 +32,6 @@
 }
 
 .attack .learn-more_button {
-    margin-top: 3rem;
+    margin-top: 8rem;
     border-bottom: 0.05rem solid var(--colour-white);
 }

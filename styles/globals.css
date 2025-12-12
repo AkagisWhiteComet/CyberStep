@@ -164,6 +164,14 @@ section {
     margin-right: auto;
 }
 
+.top-button {
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    background: none;
+    border: none;
+}
+
 
 @keyframes appear-right {
     from {
