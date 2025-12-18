@@ -299,6 +299,65 @@
         <button class="top-button" onclick="topFunction()" id="top-button" aria-label="Переместиться наверх">
             <img src="./images/top.svg" alt="Наверх" width="50" height="50">
         </button>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+              const isMobile = window.innerWidth <= 768;
+            
+              if (isMobile) {
+                const slider = document.querySelector('.reviews_slider');
+                const reviews = document.querySelectorAll('.review');
+                const indicatorsContainer = document.createElement('div');
+                indicatorsContainer.className = 'slider-indicators';
+
+                reviews.forEach((_, index) => {
+                  const indicator = document.createElement('div');
+                  indicator.className = `indicator ${index === 0 ? 'active' : ''}`;
+                  indicator.dataset.index = index;
+                  indicatorsContainer.appendChild(indicator);
+                });
+
+                slider.appendChild(indicatorsContainer);
+
+                document.querySelectorAll('.indicator').forEach(indicator => {
+                  indicator.addEventListener('click', () => {
+                    const index = indicator.dataset.index;
+                    showReview(index);
+                  });
+                });
+
+                function showReview(index) {
+                  document.querySelectorAll('.review').forEach(review => {
+                    review.classList.remove('review-active');
+                  });
+                  document.querySelectorAll('.indicator').forEach(ind => {
+                    ind.classList.remove('active');
+                  });
+
+                  document.querySelectorAll('.review')[index].classList.add('review-active');
+                  document.querySelectorAll('.indicator')[index].classList.add('active');
+                }
+
+                let currentSlide = 0;
+                const autoSlide = setInterval(() => {
+                  currentSlide = (currentSlide + 1) % reviews.length;
+                  showReview(currentSlide);
+                
+                  const fill = document.querySelector('.slider-status-fill');
+                  if (fill) {
+                    fill.style.width = '0%';
+                    setTimeout(() => {
+                      fill.style.width = '100%';
+                    }, 100);
+                  }
+                }, 5000);
+              }
+
+              if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+                document.documentElement.classList.add('mobile-device');
+              }
+            });
+        </script>
     </main>
 
     <footer class="footer" id="footer">

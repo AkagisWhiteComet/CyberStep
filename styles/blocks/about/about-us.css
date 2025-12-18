@@ -36,3 +36,176 @@
 .about-us_subtitle {
     color: var(--colour-purple);
 }
+
+
+
+@media (max-width: 768px) {
+  .about-us {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .about-us .container {
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .about-us_image {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .about-us_image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-us_info {
+    max-width: 100%;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .about-us_title {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+
+  .about-us_description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .history .container {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .history_info {
+    max-width: 100%;
+    text-align: center;
+    gap: 1.2rem;
+  }
+
+  .history_title {
+    font-size: 1.9rem;
+    line-height: 1.3;
+  }
+
+  .history_description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .history_image {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .history_image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .learn-more_button {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .split-line {
+    margin-block: 2rem;
+  }
+
+  .about-us_subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-us .container {
+    gap: 8rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-us_info {
+    max-width: 30rem;
+  }
+
+  .about-us_title {
+    font-size: 2.2rem;
+  }
+
+  .history .container {
+    gap: 4rem;
+  }
+
+  .history_info {
+    max-width: 28rem;
+  }
+
+  .history_title {
+    font-size: 2.3rem;
+  }
+
+  .about-us_image img,
+  .history_image img {
+    max-width: 450px;
+  }
+}
+
+.about-us {
+  background-color: var(--colour-dark-darker);
+}
+
+.about-us .container {
+  align-items: flex-start;
+}
+
+.about-us_image {
+  flex-shrink: 0;
+}
+
+.about-us_info {
+  color: white;
+}
+
+.about-us_subtitle {
+  color: var(--colour-purple);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-us_title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: white;
+}
+
+.about-us_description {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.history_image {
+  flex-shrink: 0;
+}
+
+.split-line {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (hover: none) {
+  .learn-more_button:hover {
+    color: var(--colour-purple);
+    transform: none;
+  }
+}

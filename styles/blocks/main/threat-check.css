@@ -33,3 +33,74 @@
 .threat-check .learn-more_button {
     border-bottom: 0.05rem solid var(--colour-purple);
 }
+
+
+
+@media (max-width: 768px) {
+  .threat-check .container {
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 0 1.5rem;
+  }
+
+  .threat-check_info {
+    max-width: 100%;
+    gap: 1.2rem;
+    text-align: center;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .threat-check_title {
+    font-size: 1.9rem;
+    line-height: 1.3;
+  }
+
+  .threat-check_description {
+    font-size: 1rem;
+    opacity: 0.85;
+  }
+
+  .threat-check_image {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .threat-check_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .threat-check .container {
+    gap: 5rem;
+    padding: 0 2rem;
+  }
+
+  .threat-check_info {
+    max-width: 28rem;
+  }
+
+  .threat-check_title {
+    font-size: 2.2rem;
+  }
+
+  .threat-check_image {
+    max-width: 450px;
+  }
+}
+
+.threat-check_image {
+  position: relative;
+  z-index: 1;
+}
+
+.threat-check img {
+  max-width: 100%;
+  height: auto;
+}

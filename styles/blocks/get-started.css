@@ -1,6 +1,5 @@
 .get-started {
     height: 29.5rem;
-    /* background-image: url('../../images/get-started/gs-bg.png'); */
     display: flex;
     margin-bottom: 0;
 }
@@ -27,4 +26,91 @@
 
 .get-started .demo-button {
     margin-top: 2rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .get-started {
+    height: auto;
+    min-height: 38rem;
+    margin-bottom: 0 !important;
+    padding: 3rem 0;
+  }
+
+  .get-started .container {
+    background-image: url('../../images/get-started/gs-bg-mobile.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    gap: 1rem !important;
+    padding: 0 1.5rem !important;
+    max-width: 100% !important;
+  }
+
+  .get-started_title {
+    font-size: 1.9rem;
+    line-height: 1.35;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+
+  .get-started .demo-button {
+    margin-top: 1.5rem !important;
+    width: 100% !important;
+    max-width: 24rem !important;
+    padding: 1.1rem !important;
+    font-size: 1.05rem !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .get-started {
+    height: 24rem;
+  }
+
+  .get-started .container {
+    background-size: 120% auto !important;
+    gap: 1.5rem !important;
+    padding: 0 2rem !important;
+  }
+
+  .get-started_title {
+    font-size: 2.3rem;
+    max-width: 48rem !important;
+  }
+
+  .get-started .demo-button {
+    margin-top: 1.8rem !important;
+    padding: 0.95rem 2.5rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+.get-started_title {
+  position: relative;
+  z-index: 3;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.get-started .demo-button {
+  position: relative;
+  z-index: 3;
+  background: var(--colour-accent);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(255, 89, 90, 0.4);
+}
+
+.get-started .demo-button:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 25px rgba(255, 89, 90, 0.55) !important;
+}
+
+@media (hover: none) {
+  .get-started .demo-button:hover {
+    transform: none !important;
+    box-shadow: 0 4px 20px rgba(255, 89, 90, 0.4) !important;
+  }
 }

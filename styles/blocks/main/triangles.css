@@ -52,3 +52,102 @@
     text-align: center;
     opacity: 0.6;
 }
+
+
+
+@media (max-width: 768px) {
+  .triangles {
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    background: none;
+  }
+
+  .triangles-title {
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+    padding: 0 1.5rem;
+  }
+
+  .triangles-cards {
+    height: auto;
+    flex-direction: column;
+    gap: 2.5rem;
+    background-image: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    margin: 0 auto;
+    max-width: 350px;
+  }
+
+  .triangles-card {
+    max-width: 100%;
+    max-height: none;
+    margin: 0 !important;
+    padding: 1.5rem;
+    gap: 1.2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+  }
+
+  .triangle-card_title {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .triangle-card_description {
+    font-size: 0.95rem;
+    opacity: 0.8;
+  }
+
+  .triangle-icon,
+  .triangle-icon_unique {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .triangles {
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    background: none;
+  }
+
+  .triangles-cards {
+    height: auto;
+    gap: 3rem;
+    background-size: 100% auto;
+    background-position: center;
+  }
+
+  .triangles-card {
+    max-width: 13rem;
+    max-height: none;
+    gap: 1.5rem;
+  }
+
+  .first {
+    margin: 1.5rem 1rem 0 3rem;
+  }
+
+  .triangle-card_title {
+    font-size: 1.5rem;
+  }
+
+  .triangle-card_description {
+    font-size: 1rem;
+  }
+}
+
+.triangles-card {
+  position: relative;
+  z-index: 2;
+}
+
+.triangles-cards {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
